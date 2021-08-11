@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-image: url(837258.png);
+    
+    
+}
+
+ #container {
+    
+    width: 15em;
+    margin: 150px auto;
+    padding: 20px;
+    border-radius: 15px;
+    border: 1px solid rgba(85, 85, 85, 0.61);
+    background: rgb(255, 255, 255);
+
+    
+         }
+
+
+
+button { 
+    
+    text-align: center;
+    border-color: transparent;
+    margin: 3px;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    padding: 10px;  
+    font-size: 20px;
+    color: rgba(2, 3, 3, 0.582);
+               }
+
+                
+
+#navCalculadora {
+    
+    padding: 10px;
+}
+
+#botaoIgual {
+    background: rgb(63, 210, 255);
+    
+}
+
+#botaoIgual:hover {
+    background: rgb(63, 210, 255);
+
+}
+
+.telaResultado {
+    height: 70px;
+    background: transparent;
+    text-align: right;}
+    
+    
+.resultado {
+    font-family: fantasy;
+    font-size: 20px;
+    margin-right: 5px;
+    color: rgb(98, 42, 151);  
+}    
+
+.resultado1 {
+    font-family: fantasy;
+    font-size: 35px;  
+    color: rgb(98, 42, 151);  
+
+}    
+    
+
+.gato {
+    background: rgba(255, 140, 0, 0);
+}   
+
+
+
+.num:hover {background: rgb(247, 53, 143);}
+
+.num {background-color: rgba(255, 255, 255, 0);} 
+
+.operacao { background: rgba(247, 244, 244, 0.562);}
+
+.operacao:hover {
+    background-color:  rgb(63, 210, 255);
+}
+

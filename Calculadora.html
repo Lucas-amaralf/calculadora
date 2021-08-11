@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+
+ <link rel="stylesheet" href="style/Calculadora.css
+ ">
+
+</head>
+<body>  
+    
+    <div id="container">
+      
+        <div class="telaResultado">
+            <h1 id="marca"></h31>
+            <p class="resultado"></p>
+            <h3 class="resultado1"></h3>
+        </div>
+     <table id="navCalculadora">
+         
+            <tr>
+                <td><Button class="operacao" onclick="clean()">C</Button></td>
+                <td><Button class="operacao" onclick="back()"><</Button></td>
+                <td><Button class="operacao" onclick="insert('/')">/</Button></td>
+                <td><Button class="operacao" onclick="insert('*')">x</Button></td>
+            </tr>
+            <tr>
+                <td><Button class="num" onclick="insert('7')">7</Button></td>
+                <td><Button class="num" onclick="insert('8')">8</Button></td>
+                <td><Button class="num" onclick="insert('9')">9</Button></td>
+                <td><Button class="operacao" onclick="insert('-')">-</Button></td>
+            </tr>
+            <tr>
+                <td><Button class="num" onclick="insert('4')">4</Button></td>
+                <td><Button class="num" onclick="insert('5')">5</Button></td>
+                <td><Button class="num" onclick="insert('6')">6</Button></td>
+                <td><Button class="operacao" onclick="insert('+')">+</Button></td>
+            </tr>
+            <tr>
+                <td><Button class="num" onclick="insert('1')">1</Button></td>
+                <td><Button class="num" onclick="insert('2')">2</Button></td>
+                <td><Button class="num" onclick="insert('3')">3</Button></td>
+                <td rowspan="2"><Button id="botaoIgual" onclick="calcular()" style="height: 106px;">=</Button></td>
+                
+            </tr>
+            <tr>
+                <td><Button class="gato"></Button></td>
+                <td><Button class= "num" onclick="insert('0')">0</Button></td>
+                <td><Button class="num" onclick="insert('.')">.</Button></td>
+                
+            </tr>
+      
+        </table>
+    </div>
+</div>
+
+<script src="JS/calculadora.js"></script>
+
+</body>
+</html>
